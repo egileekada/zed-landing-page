@@ -1,0 +1,27 @@
+"use client"
+import AppStore from '@/components/app_store'
+import DollarCardSection from '@/components/dollar_card_section'
+import FAQSection from '@/components/faq_section'
+import Footer from '@/components/footer'
+import GetAppSection from '@/components/get_app_section'
+import HeroSection from '@/components/hero_section'
+import Navbar from '@/components/navbar'
+import OurSolution from '@/components/our_solution'
+import ProdutSection from '@/components/product_section'
+import Image from 'next/image'
+
+export default function Home() {
+  return (
+    <main className=" w-full px-6 lg:px-10 overflow-x-hidden min-h-screen text-primary bg-white"> 
+      <Navbar />
+      <HeroSection />
+      <GetAppSection />
+      <ProdutSection />
+      <DollarCardSection />
+      <FAQSection />
+      <OurSolution />
+      <AppStore />
+      <Footer />
+    </main>
+  )
+}
