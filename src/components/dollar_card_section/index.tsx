@@ -47,7 +47,6 @@ function DollarCardSection(props: Props) {
                 {image_path?.map((item: any) => {
                     return (
                         <div key={item?.name} className=' w-[82px] h-[82px] lg:w-[122px] lg:h-[122px] bg-white rounded-full flex justify-center items-center ' style={{ boxShadow: "14.51139px -13.90675px 12.69747px 0px rgba(0, 0, 0, 0.25) inset", filter: "drop-shadow(0px 2.418565034866333px 78.60336303710938px rgba(0, 0, 0, 0.25))" }} >
-                            @ts-ignore
                             <img className={` w-[60%] lg:w-[50%] `} src={item?.name} alt='image' key={item?.name} />
                         </div>
                     )
