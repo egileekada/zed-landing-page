@@ -17,8 +17,8 @@ function OurSolution(props: Props) {
                         </g>
                         <defs>
                             <linearGradient id="paint0_linear_1507_18385" x1="6.7666" y1="14.1821" x2="29.774" y2="8.85518" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#C1D643" />
-                                <stop offset="1" stop-color="#F9FFD7" />
+                                <stop stopColor="#C1D643" />
+                                <stop offset="1" stopColor="#F9FFD7" />
                             </linearGradient>
                         </defs>
                     </svg>

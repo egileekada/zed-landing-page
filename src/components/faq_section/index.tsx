@@ -68,13 +68,13 @@ function FAQSection(props: Props) {
             <div className=' border rounded-[25px] w-full mt-8 border-[#eee] ' >
                 {faq_list?.map((item: any, index: number) => {
                     return (
-                        <div role='button' onClick={() => clickHandler(item?.title)} className=' font-medium pb-6 flex flex-col w-full gap-4 ' >
+                        <div key={index} role='button' onClick={() => clickHandler(item?.title)} className=' font-medium pb-6 flex flex-col w-full gap-4 ' >
                             <div key={index} className={` w-full pt-6 px-4 lg:px-9 gap-9 flex items-center justify-between ${index !== 0 ? "border-t" : ""} `} >
                                 <p className=' font-semibold lg:text-lg ' >{item?.title}</p>
                                 <div className=' w-fit ' >
                                     <svg className={openData?.includes(item?.title) ? "rotate-180" : ""} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="chevron-down">
-                                            <path id="Vector" d="M18 15L12 9L6 15" stroke="#13150F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path id="Vector" d="M18 15L12 9L6 15" stroke="#13150F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                         </g>
                                     </svg>
                                 </div>

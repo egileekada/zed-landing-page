@@ -46,7 +46,7 @@ function ProdutSection(props: Props) {
                 body: string
             }) => {
                 return ( 
-                    <div className=' relative rounded-3xl w-full h-[226px] lg:h-[320px] justify-center px-9 lg:px-14 bg-[#F3F3F3] flex flex-col gap-4 ' >
+                    <div key={item?.name} className=' relative rounded-3xl w-full h-[226px] lg:h-[320px] justify-center px-9 lg:px-14 bg-[#F3F3F3] flex flex-col gap-4 ' >
                         {/* <div style={{ background: "linear-gradient(122deg, #EA9E9E 0.94%, rgba(234, 158, 158, 0.00) 56.22%)" }} className=' absolute w-full top-0 left-0 h-[80%] rounded-3xl ' /> */}
                         <div className=' z-10 w-[40px] h-[40px]' >
                             <ProductIcon name={item?.name} />
