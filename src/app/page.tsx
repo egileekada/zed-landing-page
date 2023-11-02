@@ -11,6 +11,7 @@ import ProdutSection from '@/components/product_section'
 import Image from 'next/image'
 
 export default function Home() {
+  
   return (
     <main className=" w-full px-6 lg:px-10 overflow-x-hidden min-h-screen text-primary bg-white"> 
       <Navbar />
