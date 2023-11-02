@@ -11,7 +11,7 @@ function Footer(props: Props) {
         <div className=' w-full pb-20 pt-0 lg:pt-12 ' >
             <div className=' w-full lg:py-10 lg:border-b border-[#eee] flex justify-between px-8 items-center ' >
                 <div className=' w-fit hidden lg:flex gap-8 text-sm text-primary font-medium ' >
-                    @ts-ignore
+                    {/* @ts-ignore */}
                     <img className=' w-[92px] h-[24px] lg:w-[105px] lg:h-[27px] object-cover ' src={'/images/logo.png'} alt={'logo'} />
                     <div className=' hidden lg:flex items-center gap-8 ' >
                         <Link href={""} >Identity</Link>

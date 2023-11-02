@@ -10,7 +10,7 @@ function AppStore(props: Props) {
             <div className=' max-w-[470px] lg:pb-12 ' >
                 <p className=' text-[20px] lg:text-[45px] lg:text-start text-center font-semibold leading-[120%] ' >Find us on your favourite App stores</p>
             </div>
-            @ts-ignore
+            {/* @ts-ignore */}
             <img alt='a1' src='/images/a1.png' className=' lg:block hidden ' />
             <div className=' max-w-[420px] pb-8 lg:pb-12 flex flex-col gap-3 lg:gap-8 ' >
                 <p className=' text-sm lg:text-[20px] font-medium lg:text-start text-center ' >You can find and explore our offerings, as well as receive updates, by searching for us in your preferred app store.</p>

@@ -10,7 +10,7 @@ function Navbar(props: Props) {
     return (
         <div className=' w-full flex h-[100px] px-6 lg:px-14 justify-between items-center ' >
             <div className=' w-fit flex gap-8 text-sm text-primary font-medium ' > 
-            @ts-ignore
+            {/* @ts-ignore */}
                 <img className=' w-[92px] h-[24px] lg:w-[105px] lg:h-[27px] object-cover ' src={'/images/logo.png'} alt={'logo'} />
                 <div className=' hidden lg:flex items-center ml-5 gap-8 ' >
                     <Link href={""} >Identity</Link>

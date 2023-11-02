@@ -41,7 +41,7 @@ function DollarCardSection(props: Props) {
 
     return (
         <div className=' w-full relative bg-primary text-white rounded-[25px] lg:my-14 py-20 px-10 lg:px-16 ' >
-            @ts-ignore
+            {/* @ts-ignore */}
             <img alt='abo' src='/images/vimage.png' className=' absolute top-0 h-[60%] lg:h-[80%] rounded-tr-[25px] right-0 ' />
             <div className=' w-full grid lg:grid-cols-6 grid-cols-3 items-center gap-7 ' >
                 {image_path?.map((item: any) => {
