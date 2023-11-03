@@ -6,9 +6,10 @@ function HeroSection(props: Props) {
     const { } = props
 
     return (
-        <div className=' rounded-[30px] w-full bg-primary h-[380px] lg:h-[600px] px-10 lg:px-20 flex relative items-center justify-between ' >
-            <div className=' max-w-[290px] lg:max-w-[440px] text-white flex flex-col gap-5 lg:gap-8 ' >
-                <h1 className=' text-[40px] md:text-[70px] leading-[110%] lg:leading-[100%] font-medium ' >Premier finance app for Africans.</h1>
+        <div className=' rounded-[30px] w-full bg-primary h-[380px] lg:h-[90vh] px-10 lg:px-20 flex relative items-center justify-between ' >
+            <img src='/images/pattern.png' alt='pattern-image' className=' absolute inset-0 z-10 ' />
+            <div className=' max-w-[290px] lg:max-w-[550px] text-white flex flex-col gap-5 lg:gap-8 ' >
+                <h1 className=' text-[40px] md:text-[80px] leading-[110%] lg:leading-[110%] font-medium ' >Premier finance app for Africans.</h1>
                 <p className=' font-normal text-sm lg:text-lg leading-[140%] lg:leading-[180%] ' >Spearheading the future of finance through speed, customer happiness and rewards.</p>
                 <button style={{background: "linear-gradient(81deg, #C1D643 22.69%, #F9FFD7 88.41%), #C4D94C"}} className=' w-fit rounded-[200px] h-[40px] lg:h-[48px] flex items-center px-4 lg:px-8 gap-2 lg:gap-6 text-primary text-[12px] lg:text-sm font-semibold ' >
                     Try Zed App

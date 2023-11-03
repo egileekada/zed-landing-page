@@ -6,7 +6,8 @@ function OurSolution(props: Props) {
     const { } = props
 
     return (
-        <div className=' w-full py-6  flex flex-col items-center  ' >
+        <div className=' w-full py-6  flex flex-col items-center relative  ' >
+            <img src='/images/pattern.png' alt='pattern-image' className=' absolute inset-0 z-10 ' />
             <p className=' text-[20px] lg:text-[35px] leading-[140%] text-center ' >Our Solutions Speaks <span className=' font-semibold ' >Volumes,</span> <br /> but We Let It Whisper</p>
             <div className=' bg-primary rounded-3xl lg:mt-12 mt-6 w-full py-8 lg:py-14 px-8 lg:px-16 flex lg:flex-row flex-col items-center justify-between ' >
                 <div className=' w-full ' >

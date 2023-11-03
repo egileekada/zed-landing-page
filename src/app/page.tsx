@@ -11,18 +11,22 @@ import ProdutSection from '@/components/product_section'
 import Image from 'next/image'
 
 export default function Home() {
-  
+
   return (
-    <main className=" w-full px-6 lg:px-10 overflow-x-hidden min-h-screen text-primary bg-white"> 
+    <main className=" w-full px-6 lg:px-10 overflow-x-hidden min-h-screen text-primary bg-white">
       <Navbar />
       <HeroSection />
-      <GetAppSection />
-      <ProdutSection />
-      <DollarCardSection />
-      <FAQSection />
-      <OurSolution />
-      <AppStore />
-      <Footer />
+      <div className=' w-full flex justify-center ' >
+        <div className=' max-w-[1440px]  ' >
+          <GetAppSection />
+          <ProdutSection />
+          <DollarCardSection />
+          <FAQSection />
+          <OurSolution />
+          <AppStore />
+          <Footer />
+        </div>
+      </div>
     </main>
   )
 }
