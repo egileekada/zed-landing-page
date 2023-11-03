@@ -13,8 +13,10 @@ import Image from 'next/image'
 export default function Home() {
 
   return (
-    <main className=" w-full px-6 lg:px-10 overflow-x-hidden min-h-screen text-primary bg-white">
-      <Navbar />
+    <main className=" w-full px-6 lg:px-10 relative overflow-x-hidden h-screen text-primary bg-white">
+      <div className=' top-0 w-full sticky z-[100] bg-white ' >
+        <Navbar />
+      </div>
       <HeroSection />
       <div className=' w-full flex justify-center ' >
         <div className=' max-w-[1440px]  ' >

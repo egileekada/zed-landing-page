@@ -24,7 +24,7 @@ function HeroSection(props: Props) {
                 </button>
             </div>
             {/* @ts-ignore */}
-            <img src='/images/herosection.png' alt='hero-image' className=' absolute w-[40%] lg:block hidden bottom-0 right-11 ' />
+            <img src='/images/herosection.png' alt='hero-image' className=' absolute w-[40%] lg:block hidden z-10 bottom-0 right-11 ' />
         </div>
     )
 }
