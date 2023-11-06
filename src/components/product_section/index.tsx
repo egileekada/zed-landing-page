@@ -48,11 +48,11 @@ function ProdutSection(props: Props) {
                 img: string
             }) => {
                 return (
-                    <div onMouseOver={()=> setActive(item?.name)} onMouseOut={()=> setActive("0")} key={item?.name} className=' relative rounded-3xl w-full h-[226px] lg:h-[320px] justify-center px-9 lg:px-14 bg-[#F3F3F3] flex flex-col gap-4 ' >
+                    <div key={item?.name} id='design-box' className=' relative rounded-3xl w-full h-[226px] lg:h-[320px] justify-center px-9 lg:px-14 bg-[#F3F3F3] flex flex-col gap-4 ' >
                         {/* <div style={{ background: "linear-gradient(122deg, #EA9E9E 0.94%, rgba(234, 158, 158, 0.00) 56.22%)" }} className=' absolute w-full top-0 left-0 h-[80%] rounded-3xl ' /> */}
-                        {active === item?.name && ( 
+                        {/* {active === item?.name && ( 
                             <img src={`/images/${item?.img}.png`} alt={item?.img} className=' absolute inset-0 z-10 h-full rounded-3xl ' />
-                        )}
+                        )} */}
                         <div className=' z-10 w-[40px] h-[40px]' >
                             <ProductIcon name={item?.name} />
                         </div>

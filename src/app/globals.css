@@ -24,4 +24,28 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} 
+
+#design-box:hover {
+  border-radius: 24px;
+  background: linear-gradient(125deg, #AA8BFE -3.13%, #F3F3F3 55.95%);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
+
+/* .design-box::after {
+  -ms-transition: all 500ms ease-out 1s;
+  transition: all 500ms ease-out 1s;
+  position: absolute;
+  z-index: 1;
+  background-color: transparent;
+  opacity: 0.4;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: '';
+}
+.design-box:hover::after {
+  background-color: Indigo;
+} */
