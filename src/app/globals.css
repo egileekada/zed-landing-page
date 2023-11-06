@@ -26,9 +26,44 @@ body {
     rgb(var(--background-start-rgb));
 } 
 
-#design-box:hover {
+#g1-box:hover {
   border-radius: 24px;
   background: linear-gradient(125deg, #AA8BFE -3.13%, #F3F3F3 55.95%);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+} 
+
+#g2-box:hover {
+  border-radius: 24px;
+  background: linear-gradient(125deg, #9BDF81 -3.13%, #9BDF8100 55.95%);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+} 
+
+#g3-box:hover {
+  border-radius: 24px;
+  background: linear-gradient(125deg, #EED07E -3.13%, #EED07E00 55.95%);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#g4-box:hover {
+  border-radius: 24px;
+  background: linear-gradient(125deg, #EA9E9E -3.13%, #EA9E9E00 55.95%);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+} 
+
+#g5-box:hover {
+  border-radius: 24px;
+  background: linear-gradient(125deg, #D890E2 -3.13%, #D890E200 55.95%);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+} 
+
+#g6-box:hover {
+  border-radius: 24px;
+  background: linear-gradient(125deg, #89C6E7 -3.13%, #89C6E700 55.95%);
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }
