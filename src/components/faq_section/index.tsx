@@ -22,24 +22,24 @@ function FAQSection(props: Props) {
         },
         {
             title: "What is the cost of FMS?",
-            body:  <p>FMS has a bill payment feature which enables user to pay their bills directly on the platform by navigating through the following steps:<br /><br /> 1. After the estate manager/facility manger has generated a bill for a resident. <br /> 2. The resident will selects payment on the side bar. <br /> 3. Then click on the payment that they want to make and follow the prompt steps.</p>,
+            body: <p>FMS has a bill payment feature which enables user to pay their bills directly on the platform by navigating through the following steps:<br /><br /> 1. After the estate manager/facility manger has generated a bill for a resident. <br /> 2. The resident will selects payment on the side bar. <br /> 3. Then click on the payment that they want to make and follow the prompt steps.</p>,
         },
         {
             title: "Can I pay bills directly on FMS?",
-            body:  <p>FMS has a bill payment feature which enables user to pay their bills directly on the platform by navigating through the following steps:<br /><br /> 1. After the estate manager/facility manger has generated a bill for a resident. <br /> 2. The resident will selects payment on the side bar. <br /> 3. Then click on the payment that they want to make and follow the prompt steps.</p>,
+            body: <p>FMS has a bill payment feature which enables user to pay their bills directly on the platform by navigating through the following steps:<br /><br /> 1. After the estate manager/facility manger has generated a bill for a resident. <br /> 2. The resident will selects payment on the side bar. <br /> 3. Then click on the payment that they want to make and follow the prompt steps.</p>,
         },
         {
             title: "Does FMS have visitor management feature?",
-            body:  <p>FMS has a bill payment feature which enables user to pay their bills directly on the platform by navigating through the following steps:<br /><br /> 1. After the estate manager/facility manger has generated a bill for a resident. <br /> 2. The resident will selects payment on the side bar. <br /> 3. Then click on the payment that they want to make and follow the prompt steps.</p>,
+            body: <p>FMS has a bill payment feature which enables user to pay their bills directly on the platform by navigating through the following steps:<br /><br /> 1. After the estate manager/facility manger has generated a bill for a resident. <br /> 2. The resident will selects payment on the side bar. <br /> 3. Then click on the payment that they want to make and follow the prompt steps.</p>,
         },
         {
             title: "Can FMS manage estates expenses and track bill payment?",
-            body:  <p>FMS has a bill payment feature which enables user to pay their bills directly on the platform by navigating through the following steps:<br /><br /> 1. After the estate manager/facility manger has generated a bill for a resident. <br /> 2. The resident will selects payment on the side bar. <br /> 3. Then click on the payment that they want to make and follow the prompt steps.</p>,
+            body: <p>FMS has a bill payment feature which enables user to pay their bills directly on the platform by navigating through the following steps:<br /><br /> 1. After the estate manager/facility manger has generated a bill for a resident. <br /> 2. The resident will selects payment on the side bar. <br /> 3. Then click on the payment that they want to make and follow the prompt steps.</p>,
         },
         {
             title: "Which payment platform is integrated into FMS and is the secured?",
             body: <p>The payment platform integrated to FMS is paystack, it is safe, secured and has a very high success rate.<br />
-            Paystack is directly integrated into some of Nigeria largest banks ensuring a near-100% success rates for many card transactions.</p>,
+                Paystack is directly integrated into some of Nigeria largest banks ensuring a near-100% success rates for many card transactions.</p>,
         },
     ]
 
@@ -62,7 +62,8 @@ function FAQSection(props: Props) {
     }
 
     return (
-        <div className=' py-10 w-full ' >
+        <div className=' py-10 w-full relative ' >
+        <div id='forth' className=' absolute -top-[100px] ' />
             <p className=' text-sm ' >Frequently Asked Question</p>
             <p className=' text-[24px] leading-[110%] lg:text-[35px] mt-2 font-medium ' >With cutting-edge fintech expertise, we drive growth and inclusion. Explore the Terrah advantage now.</p>
             <div className=' border rounded-[25px] w-full mt-8 border-[#eee] ' >
@@ -70,7 +71,7 @@ function FAQSection(props: Props) {
                     return (
                         <div key={index} role='button' onClick={() => clickHandler(item?.title)} className=' font-medium pb-6 flex flex-col w-full gap-4 ' >
                             <div key={index} className={` w-full pt-6 px-4 lg:px-9 gap-9 flex items-center justify-between ${index !== 0 ? "border-t" : ""} `} >
-                                <p className=' font-semibold lg:text-lg ' >{item?.title}</p>
+                                <p className=' font-medium lg:text-lg ' >{item?.title}</p>
                                 <div className=' w-fit ' >
                                     <svg className={openData?.includes(item?.title) ? "rotate-180" : ""} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="chevron-down">

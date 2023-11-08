@@ -12,13 +12,13 @@ function Footer(props: Props) {
             <div className=' w-full lg:py-10 lg:border-b border-[#eee] flex justify-between px-8 items-center ' >
                 <div className=' w-fit hidden lg:flex gap-8 text-sm text-primary font-medium ' >
                     {/* @ts-ignore */}
-                    <img className=' w-[92px] h-[24px] lg:w-[105px] lg:h-[27px] object-cover ' src={'/images/logo.png'} alt={'logo'} />
+                    <img className=' w-[92px] h-[24px] lg:w-[105px] lg:h-[27px] object-cover ' src={'/images/logo.svg'} alt={'logo'} />
                     <div className=' hidden lg:flex items-center gap-8 ' >
-                        <Link href={""} >Identity</Link>
-                        <Link href={""} >Features</Link>
-                        <Link href={""} >Dollar Card</Link>
-                        <Link href={""} >FAQ</Link>
-                        <Link href={""} >Whispers</Link>
+                        <Link href={"#first"} >Identity</Link>
+                        <Link href={"#second"} >Features</Link>
+                        <Link href={"#third"} >Dollar Card</Link>
+                        <Link href={"#forth"} >FAQ</Link>
+                        <Link href={"#fifth"} >Whispers</Link>
                     </div>
                 </div>
 

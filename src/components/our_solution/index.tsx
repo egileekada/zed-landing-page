@@ -7,6 +7,7 @@ function OurSolution(props: Props) {
 
     return (
         <div className=' w-full py-6  flex flex-col items-center relative  ' >
+            <div id='fifth' className=' absolute -top-[100px] ' />
             <img src='/images/pattern.png' alt='pattern-image' className=' absolute inset-0 z-10 ' />
             <p className=' text-[20px] lg:text-[35px] leading-[140%] text-center ' >Our Solutions Speaks <span className=' font-semibold ' >Volumes,</span> <br /> but We Let It Whisper</p>
             <div className=' bg-primary rounded-3xl lg:mt-12 mt-6 w-full py-8 lg:py-14 px-8 lg:px-16 flex lg:flex-row flex-col items-center justify-between ' >
@@ -32,7 +33,7 @@ function OurSolution(props: Props) {
                         <div className=' border border-[#ccc] w-3 h-3 rounded-full ' />
                     </div>
                 </div>
-                <div className='  w-full flex lg:pt-0 mt-8 pt-8 lg:border-t-0 border-t border-[#4E4E4E] lg:justify-end text-white ' >
+                <div className='  w-full flex lg:pt-0 mt-8 pt-8 lg:border-t-0 border-t border-[#4E4E4E] lg:justify-center text-white ' >
                     <div className=' w-fit flex items-center gap-4 lg:gap-6  ' >
                         <div className=' w-[50px] lg:w-[54px] h-[50px] lg:h-[54px] rounded-full bg-slate-400' />
                         <div>

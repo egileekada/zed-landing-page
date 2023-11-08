@@ -6,7 +6,8 @@ function GetAppSection(props: Props) {
     const { } = props
 
     return (
-        <div className=' w-full flex lg:flex-row flex-col justify-between gap-4 lg:gap-10 py-8 lg:py-12 ' >
+        <div className=' w-full relative flex lg:flex-row flex-col justify-between gap-4 lg:gap-10 py-8 lg:py-12 ' >
+            <div id='first' className=' absolute -top-[100px] ' />
             <div className=' w-full flex justify-start' >
                 <p className=' text-[30px] lg:text-[65px] font-semibold w-full lg:w-[70%] leading-[120%] ' >Peek into the DNA of Zed's identity</p>
             </div>
