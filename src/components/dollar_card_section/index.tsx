@@ -40,7 +40,7 @@ function DollarCardSection(props: Props) {
     ]
 
     return (
-        <div className=' w-full relative bg-primary text-white rounded-[25px] lg:my-14 py-20 px-10 lg:px-16 ' >
+        <div className=' w-full relative bg-primary text-white rounded-[25px] lg:my-14 py-12 lg:py-56 pr-10 pl-10 lg:pl-32 lg:pr-16 ' >
             {/* @ts-ignore */}
             <div id='third' className=' absolute -top-[100px] ' />
         <img src='/images/pattern.png' alt='pattern-image' className=' absolute inset-0 z-10 h-full w-full object-cover ' />

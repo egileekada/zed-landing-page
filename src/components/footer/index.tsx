@@ -22,14 +22,15 @@ function Footer(props: Props) {
                     </div>
                 </div>
 
-                <div className=' w-full lg:justify-start justify-center lg:w-fit flex lg:flex-row flex-col gap-4 lg:gap-8 text-sm text-primary font-medium ' >
+                <div className=' w-full lg:justify-start justify-center lg:w-fit flex lg:flex-row flex-col gap-4 lg:gap-2s text-sm text-primary font-medium ' >
                     <div className=' w-full lg:justify-start justify-center lg:w-auto flex items-center lg:ml-5 gap-8 ' >
                         <Link href={""} >Privacy Policy</Link>
                         <Link href={""} >Terms of use</Link>
                         <p className=' lg:block hidden ' >
-                            <Link href={""} >Follow Zed   ——</Link>
+                            <Link href={""} >Follow Zed </Link>
                         </p>
-                    </div>
+                    </div> 
+                    <p className=' lg:block hidden '>——</p>
                     <div className=' w-full lg:justify-start justify-center lg:w-auto flex gap-2 ' >
                         <Link href={""}>
                             <div className=' w-6 h-6 bg-primary rounded-full flex justify-center items-center ' >
