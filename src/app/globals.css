@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
 
-html, body {
-  scroll-behavior: smooth !important;
+html {
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -22,7 +27,7 @@ html, body {
 }
 
 body {
-  scroll-behavior: smooth !important;
+  scroll-behavior: smooth;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,

@@ -13,7 +13,7 @@ import Image from 'next/image'
 export default function Home() {
 
   return (
-    <main className=" w-full px-6 lg:px-10 relative overflow-x-hidden h-screen text-primary bg-white">
+    <main className=" w-full px-6 lg:px-10  scroll-smooth relative overflow-x-hidden h-screen text-primary bg-white">
       <div className=' top-0 w-full sticky z-[100] bg-white ' >
         <Navbar />
       </div>
